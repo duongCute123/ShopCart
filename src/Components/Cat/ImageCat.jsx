@@ -1,5 +1,6 @@
 import UseFetch from "../Configapi/Configapi";
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 const Cat = ({ cat: { url } }) => {
     return (
         <div className="cat">
@@ -7,7 +8,7 @@ const Cat = ({ cat: { url } }) => {
         </div>
     )
 }
-const ImageCat = () => {
+const ImageCat = (e) => {
     const URL = "https://api.thecatapi.com/v1/images/search?breed_id=abys"
     const data = UseFetch(URL)
     return (
