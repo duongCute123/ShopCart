@@ -4,7 +4,7 @@ import axios from "axios";
 const Cat = ({ cat: { url } }) => {
     return (
         <div className="cat">
-            <img src={url} alt="duong" />
+            <img id="anhcat" src={url} alt="duong" />
         </div>
     )
 }

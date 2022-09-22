@@ -8,7 +8,7 @@ import React from "react"
 const App=()=>{
   return(
     <div>
-      <CallCat/>
+      <Menus/>
     </div>
   )
 }

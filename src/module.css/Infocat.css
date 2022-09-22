@@ -36,10 +36,10 @@ body{
 #hello:hover::before{
     height: 100%;
 }
-.hello>h1{
+#hello>h1{
     text-align: center;
 }
-img{
+#anhcat{
     width: 250px;
     height: 250px;
     text-align: center;
@@ -47,29 +47,9 @@ img{
     transition: width 1s;
 
 }
-img:hover{
+#anhcat:hover{
     height:280px ;
 }
 .btn{
     margin-top:0px;
-}
-/** Trên màn hình ipad*/
-@media(max-width:1024px){
-    img{
-        width: 250px;
-    }
-    .hello{
-        width: 26%;
-        left: 10px;
-    }
-}
-/* Tren man hinh dien thoa */
-@media(max-width:375px){
-    img{
-        width: 75px;
-    }
-    #hello{
-        width: 26%;
-        left: 10px;
-    }
 }

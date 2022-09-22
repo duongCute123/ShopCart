@@ -5,6 +5,8 @@ import Hello from "../Homepage/Homepage";
 import AddCat from "../AddCat/AddCat";
 import '../../module.css/Menus.css'
 import SlideCourse from "../SlideShow/SlideCourse";
+import ImageCat from "../Cat/ImageCat";
+import CallCat from "../Cat/InFocat";
 const Navbar = () => (
     <nav id="navs" class="navbar navbar-expand-sm navbar-dark" style={{top:"0px"}}>
         <a class="navbar-brand" href="#">Shop Cat</a>
@@ -40,9 +42,9 @@ const Menus = () => {
                 <Navbar />
                 <SlideCourse/>
                 <Routes>
-                    <Route path="/" element={<AddCat />} />
-                    <Route path="/contact" element={<AddCat />} />
-                    <Route path="/suport" element={<AddCat />} />
+                    <Route path="/" element={<CallCat />} />
+                    <Route path="/contact" element={<CallCat />} />
+                    <Route path="/addcat" element={<AddCat />} />
                     <Route path="/news" element={<AddCat />} />
                 </Routes>
             </BrowserRouter>

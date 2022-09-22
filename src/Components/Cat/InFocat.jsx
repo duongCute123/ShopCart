@@ -31,8 +31,11 @@ const CallCat = () => {
     return (
         <div className="row">
             <div className="col-sm-12">
-                <label htmlFor="">Nhập từ cần tìm kiếm</label> <br />
-                <input type="text" placeholder="Nhập từ cần tìm kiếm vào" name="query" value={query} onChange={tk} />
+                <h1>Cat đề cử</h1>
+            </div>
+            <div className="col-sm-12">
+                {/* <label htmlFor="">Nhập từ cần tìm kiếm</label> <br />
+                <input type="text" placeholder="Nhập từ cần tìm kiếm vào" name="query" value={query} onChange={tk} /> */}
                 {
                     data.map((cats) => (
                         <Cats cats={cats} />
