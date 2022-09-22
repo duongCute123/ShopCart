@@ -3,9 +3,10 @@ import { BrowserRouter, Router, Routes, Route, NavLink, Link } from "react-route
 import { useState } from "react";
 import Hello from "../Homepage/Homepage";
 import AddCat from "../AddCat/AddCat";
+import '../../module.css/Menus.css'
 import SlideCourse from "../SlideShow/SlideCourse";
 const Navbar = () => (
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary" style={{top:"0px"}}>
+    <nav id="navs" class="navbar navbar-expand-sm navbar-dark" style={{top:"0px"}}>
         <a class="navbar-brand" href="#">Shop Cat</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation"></button>

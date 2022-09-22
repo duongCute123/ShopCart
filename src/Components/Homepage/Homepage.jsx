@@ -1,10 +1,10 @@
 import SlideCourse from "../SlideShow/SlideCourse"
 import Menus from "../Menu/Menus"
-const Hello = () => {
+const HomePage = () => {
     return (
         <div className="homepage">
             <Menus />
         </div>
     )
 }
-export default Hello
+export default HomePage

@@ -1,8 +1,10 @@
 import React from "react";
+import { useState } from "react";
 import cat1 from "../../image/9-cute-cats-thumb.jpg"
 import cat2 from "../../image/30-cute-cats-thumb.jpg"
 import "../../module.css/SlideCourse.css"
 import cat3 from "../../image/cat_presentation_powerpoint_templates_design_274007.jpg"
+import AddCat from "../AddCat/AddCat";
 const SlideCourse = () => {
     return (
         <div id="carouselId" class="carousel slide" data-ride="carousel">
@@ -15,22 +17,22 @@ const SlideCourse = () => {
                 <div class="carousel-item active">
                     <img src={cat1} alt="First slide" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Title</h3>
-                        <p>Description</p>
+                        <h3>Cat Vip 1</h3>
+                        <p>Mèo Vip Pro One</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={cat2} alt="Second slide" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Title</h3>
-                        <p>Description</p>
+                        <h3>Cat Vip 2</h3>
+                        <p>Mèo Vip Pro Two</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={cat3} alt="Third slide" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h3>Title</h3>
-                        <p>Description</p>
+                        <h3 >Cat Vip 3</h3>
+                        <p>Mèo Vip Pro Three</p>
                     </div>
                 </div>
             </div>
